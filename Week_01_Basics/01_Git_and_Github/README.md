@@ -1,4 +1,4 @@
-# Lesson 00 - Version control, git, and GitHub
+# Lesson 01 - Version control, git, and GitHub
 
 ### Learning Objectives:
 

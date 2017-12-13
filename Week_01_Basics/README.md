@@ -2,6 +2,6 @@
 
 ## Week 1 - The Basics
 
-This week is about getting comfortable with git and Github, as well as the
-Github desktop application and how we use it to submit our work. We will also be
+This week is about getting comfortable with git, Github, and the
+Github desktop application. We will also be
 reviewing the basics of HTML and CSS.

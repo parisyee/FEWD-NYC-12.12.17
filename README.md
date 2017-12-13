@@ -20,6 +20,10 @@ Students must complete at least 80% of the assigned homework. Homework will usua
 
 Students must complete their final project before the last day of class. On the last day of class, students are required to present their final projects.
 
+## Holidays
+
+Class will not be held on Tuesday, 12/26/17 or Thursday, 12/28/17. Class will resume its normal schedule on Tuesday, 1/2/18.
+
 ## Other Resources
 
 Students of Front End Web Development have access to the General Assembly's Student Resource Center (SRC). The SRC is located on the 4th floor. When visiting the SRC, students will queue up to receive 1 on 1 help from one of the web development teaching assistants.

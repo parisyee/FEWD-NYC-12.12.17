@@ -24,6 +24,12 @@ Students must complete their final project before the last day of class. On the 
 
 Class will not be held on Tuesday, 12/26/17 or Thursday, 12/28/17. Class will resume its normal schedule on Tuesday, 1/2/18.
 
+## Students
+
+- [Jill Duhl](https://github.com/jsduhl)
+- [Caronline Oh](https://github.com/carolineyoh)
+- [Mohamed Farih](https://github.com/mohamedx25)
+
 ## Other Resources
 
 Students of Front End Web Development have access to the General Assembly's Student Resource Center (SRC). The SRC is located on the 4th floor. When visiting the SRC, students will queue up to receive 1 on 1 help from one of the web development teaching assistants.

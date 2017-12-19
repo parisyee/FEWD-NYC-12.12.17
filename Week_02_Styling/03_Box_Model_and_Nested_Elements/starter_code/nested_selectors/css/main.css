@@ -1,0 +1,35 @@
+<<<<<<< HEAD
+
+
+blockquote p {
+	font-style: italic;
+	color: #ffffff;
+}
+
+blockquote p em {
+	font-style: normal;
+	font-weight: bold;
+	color: #ffffff;
+}
+body {
+	color: #ffffff;
+	background-image: url("https://68.media.tumblr.com/84a7cf5915baf00cddceed4455b7f775/tumblr_nxy3kuKzDE1qlqq7eo1_500.gif");
+	background-position: top;
+	background-size: cover;
+}
+
+=======
+blockquote p {
+  font-style: italic;
+}
+
+blockquote p em {
+  font-style: normal;
+  font-weight: bolder;
+}
+
+blockquote > p > em {
+  font-style: normal;
+  font-weight: bolder;
+}
+>>>>>>> 9112d26df769faa34037692f26fc6da68969b7c4

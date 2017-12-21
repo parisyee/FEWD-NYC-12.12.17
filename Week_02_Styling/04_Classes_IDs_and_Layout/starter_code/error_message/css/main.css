@@ -4,15 +4,16 @@
   border: 3px solid black;
 }
 
-.error {
-  color: red;
-  font-weight: bold;
-  background: green;
-}
-
 .message {
-  background: #FFF;
+  color: #333;
+  background-color: #FFF;
   padding: 15px;
   border: 2px solid #CCB;
   margin: 10px 0;
 }
+
+.error {
+  color: #E00;
+  font-weight: bold;
+}
+

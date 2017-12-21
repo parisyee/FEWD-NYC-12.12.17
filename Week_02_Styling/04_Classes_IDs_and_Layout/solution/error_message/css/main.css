@@ -1,32 +1,29 @@
-body {
-  font-family: sans-serif;
-  line-height: 1.4;
-  margin: 30px;
-}
-
 #notification {
   background: #EEE;
   padding: 10px;
-  border: 1px solid #CCC;
+  border: 3px solid black;
 }
 
 .message {
-  background: #FFE;
+  color: #333;
+  background-color: #FFF;
   padding: 15px;
   border: 2px solid #CCB;
   margin: 10px 0;
 }
 
 .error {
-  background: #FEE;
-  border-color: #C66;
+  color: #E00;
+  font-weight: bold;
 }
 
-code {
-  background: rgba(0, 0, 0, .05);
-  padding: 1px 4px;
-  border: 1px solid rgba(0, 0, 0, .2);
-  border-radius: 4px;
-  margin: 0 1px;
-  white-space: nowrap;
+.success {
+  color: #00bd17;
 }
+
+#footer {
+  margin-top: 20px;
+  padding: 15px 30px;
+  border-top: 2px solid lightgrey;
+}
+

@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/main.css" type="text/css" />
   </head>
   <body>
+
     <h1>Classes and IDs</h1>
     <p id="notification">Say we have a notification to style, with an id of <code>notification</code>.</p>
     <div>
@@ -21,16 +22,28 @@
     <div class="message">
       A third element with a <strong>class</strong> of <code>message</code>, for good measure. One CSS selector styles all of these.
     </div>
+    
     <h2>IDs are singular, Classes are plural</h2>
     <p>An ID is meant to be used only once in a given HTML document. A given element can have only one ID.</p>
     <p>A class can be reused as many times as needed in a given HTML document. A given element can have multiple classes.</p>
+
     <h2>Using Multiple Classes</h2>
     <p>An element can be given multiple classes, separated by spaces, such as <code>class="foo bar baz"</code>.</p>
     <div class="message error">
       This has <code>class="message error"</code>, meaning it has two classes: <code>message</code> and <code>error</code>. It will get styles from <code>.message</code> and <code>.error</code>. The styles for <code>.error</code> override the default styles,
-      which we achieve by placing them after the styles for <code>.message</code>.
+      which we achieve by placing them after the styles for <code>.message</code> in our CSS file (this is why the font color is red).
     </div>
+
     <h2>Your Turn</h2>
-    <p>Add a new element to the page below the error message, that will serve as a success message, and style it to be green.</p>
+    <p>Add a new element to the page that will serve as a success message, and style it to have green text green.</p>
+    <p>Add a <code>footer</code> element to the bottom of the page. Give it a unique <code>id</code> and use the id to apply padding, margin and top border.
+
+    <div class="message success">
+      This has <code>class="message success"</code>. Just like the error message, it is displaying styles from both the <code>.message</code> and <code>success</code> classes.
+    </div>
+
+    <footer id="footer">
+      This is the footer. You could have used the <code>footer</code> tag name as the CSS selector, but since we're learning about classes and IDs, we went with an ID.
+    </footer>
   </body>
 </html>

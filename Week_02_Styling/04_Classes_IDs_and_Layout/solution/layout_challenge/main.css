@@ -1,0 +1,40 @@
+header {
+	background: black;
+	width: 100%;
+	height: 200px;
+	float: left;
+}
+
+.content {
+	background: grey;
+	height: 80%;
+	margin: 20px;
+}
+
+#left {
+	width: 20%;
+	height: 500px;
+	background: green;
+	float: left;
+}
+
+#main {
+	width: 60%;
+	height: 500px;
+	background: yellow;
+	float: left;
+}	
+
+#right {
+	width: 20%;
+	height: 500px;
+	background: blue;
+	float: right;
+}
+
+footer {
+	background: red;
+	width: 100%;
+	height: 200px;
+	float: left;
+}

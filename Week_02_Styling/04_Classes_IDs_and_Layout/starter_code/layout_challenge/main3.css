@@ -1,0 +1,64 @@
+.placeholder {
+
+	font-family: helvetica;
+	margin: 10px;
+	color: white;
+	font-size: 50px;
+}
+
+#header {
+	
+	background-color: #09093B;
+	height: 250px;
+	margin-left: 10px;
+}
+
+#slab {
+
+	background-color: #1A1A59;
+	width: 150px;
+	height: 100px;
+	margin: 10px;
+	margin-top: 70px;
+	float: right;
+
+}
+
+#whole {
+font-size: 300px;
+background-color: #565695;
+text-align: center;
+width: 100%;
+height: 360px;
+margin: 50px 0 10px 0;
+float: left;
+
+	}
+
+#trypt {
+	width: 599px;
+	height: 150px;
+	background: #8080B3;
+	margin: 0 10px 0 0;
+	float: left;
+
+}
+
+body {
+	color: black;
+}
+
+header {
+
+	width: 25%;
+	height: 200px;
+	float: left;
+}
+
+footer {
+	background: #343477;
+	width: 100%;
+	height: 200px;
+	float: left;
+	margin: 10px;
+}

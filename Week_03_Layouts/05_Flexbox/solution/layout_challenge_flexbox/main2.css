@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+}
+
+header {
+	background: purple;
+	width: 100%;
+	height: 100px;
+}
+
+.content {
+	padding: 30px;
+}
+
+section {
+	display: flex;
+}
+
+.half {
+	width: 50%;
+	height: 500px;
+}
+
+.third {
+	width: 33%;
+	height: 250px;
+}
+
+#pink { background: pink; }
+#grey { background: grey; }
+#blue { background: blue; }
+#green { background: green; }
+#orange { background: orange; }
+
+footer {
+	background: red;
+	width: 100%;
+	height: 100px;
+}

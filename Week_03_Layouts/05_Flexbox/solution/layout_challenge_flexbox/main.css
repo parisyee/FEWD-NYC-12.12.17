@@ -1,0 +1,41 @@
+body {
+	margin: 0;
+}
+
+header {
+	background: purple;
+	width: 100%;
+	height: 100px;
+}
+
+.content {
+	padding: 30px;
+}
+
+main {
+	display: flex;
+}
+
+#left {
+	width: 20%;
+	height: 500px;
+	background: green;
+}
+
+#center {
+	width: 60%;
+	height: 500px;
+	background: yellow;
+}
+
+#right {
+	width: 20%;
+	height: 500px;
+	background: blue;
+}
+
+footer {
+	background: red;
+	width: 100%;
+	height: 100px;
+}

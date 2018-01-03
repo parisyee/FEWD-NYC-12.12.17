@@ -52,7 +52,7 @@ This is the property which dictates if items are lined up horizontally or vertic
 
 It is also important to note the when we use the `display: flex;` property on the Flex parent the "main axis" (the axis that is defined by the flex-start and flex-end edges) is the horizontal or row axis. When the `flex-direction` is changed to column, then the start and end edges are moved to the top and bottom and the main axis is reassigned to the vertical access.
 
-!(flex axis)[https://mdn.mozillademos.org/files/3739/flex_terms.png]
+![flex axis](https://mdn.mozillademos.org/files/3739/flex_terms.png)
 
 ### `justify-content`
 

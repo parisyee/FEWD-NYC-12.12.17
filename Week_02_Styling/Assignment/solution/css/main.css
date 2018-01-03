@@ -1,0 +1,139 @@
+body {
+  color: #606161;
+  color: #f0efef;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+header {
+  background: url(../images/header_bg.jpg) no-repeat top center #131e27;
+  height: 700px;
+  padding-top: 32px;
+}
+
+header .logo {
+  color: #fff;
+}
+
+header h2 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 600;
+  margin: 120px 0 90px;
+  text-align: center;
+}
+
+.button {
+  border-radius: 5px;
+  display: block;
+  font-size: 28px;
+  font-weight: 800;
+  margin: 0 auto;
+  padding: 12px 0;
+  text-align: center;
+  width: 280px;
+}
+
+.yellow {
+  background: #f9e42e;
+  color: #033048;
+}
+
+.blue {
+  background: #033048;
+  color: #fff;
+  font-size: 24px;
+}
+
+#benefits {
+  padding: 100px 0 80px;
+}
+
+h3 {
+  color: #033048;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+#benefits p, #benefits ul {
+  width: 600px;
+}
+
+#benefits ul {
+  list-style: disc;
+  margin: 30px 0 0 80px;
+}
+
+#testimonial {
+  background: url(../images/testimonial_bg.jpg) no-repeat top center #071324;
+  color: #fff;
+  padding: 70px 0 70px;
+}
+
+blockquote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  margin: 0 auto;
+  text-align: center;
+  width: 580px;
+}
+
+blockquote span {
+  display: block;
+  font-style: normal;
+  font-weight: 600;
+}
+
+aside {
+  background: #f9e42e;
+  padding: 30px;
+  text-align: center
+}
+
+footer {
+  background: #121212;
+  padding: 65px 0 45px;
+  text-align: center;
+}
+
+footer .logo {
+  color: #f9e42e;
+  margin-bottom: 68px;
+}
+
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 26px 75px;
+}
+
+footer p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+

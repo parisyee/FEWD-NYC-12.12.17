@@ -1,0 +1,53 @@
+header {
+  align-items: center;
+  background: pink;
+  display: flex;
+  height: 130px;
+  justify-content: space-between;
+}
+
+#logo {
+  background: grey;
+  border-radius: 10px;
+  height: 80px;
+  margin-left: 10px;
+  width: 200px;
+}
+
+nav {
+  display: flex;
+}
+
+.nav-item {
+  background: orange;
+  border-radius: 10px;
+  height: 50px;
+  margin-right: 10px;
+  width: 100px;
+}
+
+.hero {
+  background: yellow;
+  height: 400px;
+}
+
+section {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.third {
+  background: lightgreen;
+  height: 250px;
+  width: 30%;
+}
+
+footer {
+  background: orange;
+  height: 70px;
+}

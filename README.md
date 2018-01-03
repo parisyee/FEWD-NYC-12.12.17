@@ -26,8 +26,9 @@ Class will not be held on Tuesday, 12/26/17 or Thursday, 12/28/17. Class will re
 
 ## Students
 
-- [Jill Duhl](https://github.com/jsduhl)
 - [Caronline Oh](https://github.com/carolineyoh)
+- [Elena Kanteria](https://github.com/elenakantaria)
+- [Jill Duhl](https://github.com/jsduhl)
 - [Mohamed Farih](https://github.com/mohamedx25)
 
 ## Other Resources

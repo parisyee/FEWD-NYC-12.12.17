@@ -1,0 +1,47 @@
+#page-header {
+	background: black;
+	border-bottom: 4px solid yellow;
+	color: white;
+	overflow: hidden;
+	padding: 0 3%;
+}
+
+#page-header > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+#page-header a {
+	color: inherit;
+	text-decoration: none;
+}
+
+#page-header h1 {
+	color: yellow;
+	font-family: 'Merriweather', serif;
+	font-size: 1.5em;
+	margin: 20px 0 0 0;
+}
+
+#page-header nav  ul {
+  display: flex;
+}
+
+#page-header nav a {
+	display: block;
+	padding: 20px 15px;
+}
+
+#page-header nav li a:hover {
+	color: yellow;
+}
+
+#page-header nav li.active a {
+	background: #666;
+}
+
+#page-header nav strong {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+

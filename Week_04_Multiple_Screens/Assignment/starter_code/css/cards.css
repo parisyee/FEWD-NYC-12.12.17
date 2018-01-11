@@ -1,0 +1,40 @@
+.cards {
+	display: flex;
+  flex-flow: row wrap;
+}
+
+.card {
+	width: 25%;
+}
+
+.card img {
+	max-width: 100%;
+}
+
+.card article {
+	background: white;
+	margin: 10px;
+	padding: 10px;
+}
+
+.card .button {
+	font-size: .75em;
+}
+
+.tags {
+  display: flex;
+  flex-flow: row wrap;
+	margin-bottom: 10px;
+}
+
+.tags li a {
+	background: #666;
+	border-radius: 100px;
+	color: white;
+	display: block;
+	font-size: .75em;
+	margin: 0 5px 5px 0;
+	padding: 1px 12px;
+	text-decoration: none;
+}
+

@@ -1,0 +1,85 @@
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+header, li, div, footer {
+  border: 1px solid black;
+}
+
+.flex {
+  display: flex;
+}
+
+header {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+nav {
+  display: none;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+nav li{
+  height: 50px;
+  width: 100%;
+  margin: 0px;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+}
+
+#hamburger {
+  align-items: center;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 15px;
+  width: 50px;
+}
+
+.line{
+  height:7px;
+  width:60%;
+  border-radius:5px;
+}
+
+.featured {
+  height: 400px;
+  margin: 20px 0;
+  border: 1px solid black;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card {
+  width: 100%;
+  height: 200px;
+  margin: 20px 0;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer > div {
+  height: 200px;
+  margin: 20px;
+  width: 90%;
+}
+

@@ -23,6 +23,10 @@ Startup Matchmaker's user count has grown, and the number of users accessing the
   - Content does not overlap
   - Changes to a single-column layout when appropriate
 
+### NOTE
+
+When you add your hamburger icon element, be sure to give it an ID of `hamburger`. If you do not do this, your menu will not appear and disappear when you click on the hamburger.
+
 #### Bonus
 
 Add different media queries for a 1000px breakpoint and a 480px breakpoint

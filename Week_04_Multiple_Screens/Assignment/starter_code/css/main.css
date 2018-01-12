@@ -5,6 +5,10 @@ body {
 	cursor: default;
 }
 
+.flex {
+  display: flex;
+}
+
 .wrapper {
 	max-width: 1280px;
 	margin: auto;

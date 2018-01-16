@@ -1,0 +1,102 @@
+#page-header {
+	background: black;
+	border-bottom: 4px solid yellow;
+	color: white;
+	overflow: hidden;
+	padding: 0 3%;
+}
+
+#page-header > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex { display: flex; }
+
+#hamburger { display: none; }
+
+.line{
+  border: 1px solid yellow;
+  height: 2px;
+  width: 60%;
+  background-color: yellow;
+  border-radius: 5px;
+}
+
+#page-header a {
+	color: inherit;
+	text-decoration: none;
+}
+
+#page-header h1 {
+	color: yellow;
+	font-family: 'Merriweather', serif;
+	font-size: 1.5em;
+	margin: 20px 0 0 0;
+}
+
+#page-header nav  ul {
+  display: flex;
+}
+
+#page-header nav a {
+	display: block;
+	padding: 20px 15px;
+}
+
+#page-header nav li a:hover {
+	color: yellow;
+}
+
+#page-header nav li.active a {
+	background: #666;
+}
+
+#page-header nav strong {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  #hamburger {
+    align-items: center;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 5px;
+    width: 50px;
+    height: 20px;
+  }
+
+  #page-header > div {
+    flex-wrap: wrap;
+    align-items: flex-end;
+    padding: 15px 5px 5px 5px;
+  }
+
+  #page-header h1 {
+    margin: 0;
+  }
+
+  nav {
+    display: none;
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  nav li {
+    border-top: 1px solid yellow;
+    margin: 0;
+    width: 100%;
+  }
+  
+  #page-header nav a {
+    padding: 10px 5px;
+  }
+}

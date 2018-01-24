@@ -9,3 +9,25 @@ To submit your final project code and components, create a new Github repository
 - Create a `README.md` file in the root of your final project repo. Include a brief description of your project - what it is, why your are interested in building it, etc.
 
 - Create a directory in the root of your project repo called `wireframes`. Add your initial wireframe images to this directory and then commit push them up to Github for review. If your wireframes are hand-drawn, you can scan them or take pictures. Just make sure they are clearly legible and are formatted as either PNG or JPG.
+
+#### Due Tuesday, 02/06/18 - HTML and CSS First Draft
+
+This is the first draft of the HTML and CSS code for your website. You should attempt to get all of the major elements in place and have all non-javascript functionality accounted for.
+
+Please note that fine tuning of styles is not the primary focus of this milestone. Just get your structure in place and throw together a rough idea of styling. You don't want to spend time getting things pixel perfect this early in the game because chances are you will have to change things later on.
+
+**Requirements**
+
+- `index.html` - the homepage of your site. This file should be in the root of your project directory.
+
+- `css` directory - in the root of your project folder All of your CSS files should be located here.
+
+- `reset.css` - include all of the reset styles (overwriting default browser styles) in a separate reset.css file as to not clutter your actual styles.
+
+- Other HTML pages - although your final project can be a single page website, you may find that you want to add more pages. These other pages can either be in the root of your project directory along with you `index.html` or they can be in a subdirectory.
+
+- Images - if required, please place these in an `images` or `img` directory in the root of your project directory.
+
+- Enable Github pages for your repo to deploy your site for progress review.
+
+- Include the url of your deployed site in the README of your project.

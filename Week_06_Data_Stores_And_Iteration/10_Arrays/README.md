@@ -1,4 +1,4 @@
-# Data Types, Variables, and Arrays
+# Lesson 10 - Arrays and Iteration
 
 ### Learning Objectives
 - Understand what arrays are used for.

@@ -37,7 +37,8 @@ function getMorePlayers() {
 
   do {
     if (response) {
-      players.push({ name: response });
+      // create an object with a `name` property. the value will be `response`
+      // add this object to the `players` array.
     }
     response = prompt('Add a player and hit <enter>. Type \'STOP\' when finished');
   } while (response && response !== 'STOP');

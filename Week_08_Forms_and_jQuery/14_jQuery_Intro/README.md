@@ -273,7 +273,7 @@ $('#outerContainer').append($newDiv);
 See this in action (and play around with it) [on JSBin](http://jsbin.com/gupade/3/edit?html,js,output)
 
 
-## Reddit - Independent Practice
+## Independent Practice 1 - Reddit
 
 Following the directions below to practice using jQuery:
 
@@ -303,6 +303,14 @@ $('img').show()
 - Try to replace the blue background in the header by another color using the function `.css()`.
 
 - Now try some of the other examples we've gone over in the Chrome REPL and see what happens to the Reddit.com website. Remember, this is your laboratory — your chance to experiment and learn. Make use of it.
+
+## Independent Practice 2 - jQuery Basics
+
+[Starter code](./starter_code/jQuery_practice)
+
+## Lab
+
+[Starter code](./starter_code/terminator_lab)
 
 ## Conclusion
 

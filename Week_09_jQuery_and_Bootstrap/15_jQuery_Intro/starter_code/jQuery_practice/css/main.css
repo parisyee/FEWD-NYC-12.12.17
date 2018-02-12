@@ -1,0 +1,17 @@
+img {
+  width: 150px;
+}
+
+a {
+  list-style: none;
+}
+
+.smaller-font {
+  font-size: 10px;
+}
+
+.my-jquery-class {
+  height: 200px;
+  width: 200px;
+  background-color: papayawhip;
+}

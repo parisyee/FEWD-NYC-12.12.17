@@ -43,3 +43,17 @@ Now that you have most of your HTML and CSS, it's time to add some flourishes wi
 - `index.js` - at the minimum, you should have an `index.js` file for your Javascript code. Feel free to create as many Javascript files as you want for organizational purposes.
 
 > You are permitted to use any Javascript library you wish. However, you are not required to use any libraries. The use or nonuse of libraries will not affect your final project grade.
+
+#### Due Thursday, 03/01/18 - Final Project Presentation
+
+On our last day of class, we will be presenting out final projects to each other.
+
+**Requirements**
+
+- Functioning and deployed web site - Your website must be bug free and accessible via a public URL (hosted on GitHub Pages).
+
+- Oral Presentation - During your oral presentation, you will demo your website features to the class. Be prepared to speak about challenges you faces, how you over came them, and your greatest learning moments through the process.
+
+## Grading
+
+Grades will be posted as a GitHub issue ticket on your project repository. The grading process can take up to two weeks (14 days) _after_ your final day of class.

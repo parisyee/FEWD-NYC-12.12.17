@@ -1,7 +1,4 @@
 $(document).ready(function(){
-  //do all of this stuff as jquery statements first
-  //and once you're done, do everything again, but wrap everything in its own function
-
   //Access the first p element by its id and change the text
   $('p#first').html('text changed');
 

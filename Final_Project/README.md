@@ -20,7 +20,7 @@ Please note that fine tuning of styles is not the primary focus of this mileston
 
 - `index.html` - the homepage of your site. This file should be in the root of your project directory.
 
-- `css` directory - in the root of your project folder All of your CSS files should be located here.
+- `css` directory - in the root of your project folder. All of your CSS files should be located here.
 
 - `reset.css` - include all of the reset styles (overwriting default browser styles) in a separate reset.css file as to not clutter your actual styles.
 
@@ -31,3 +31,15 @@ Please note that fine tuning of styles is not the primary focus of this mileston
 - Enable Github pages for your repo to deploy your site for progress review.
 
 - Include the url of your deployed site in the README of your project.
+
+#### Due Tuesday, 02/20/18 - Javascript First Draft
+
+Now that you have most of your HTML and CSS, it's time to add some flourishes with Javascript.
+
+**Requirements**
+
+- `js` or `javascript` directory - in the root of your project repository. This is where all of your Javascript files will go.
+
+- `index.js` - at the minimum, you should have an `index.js` file for your Javascript code. Feel free to create as many Javascript files as you want for organizational purposes.
+
+> You are permitted to use any Javascript library you wish. However, you are not required to use any libraries. The use or nonuse of libraries will not affect your final project grade.

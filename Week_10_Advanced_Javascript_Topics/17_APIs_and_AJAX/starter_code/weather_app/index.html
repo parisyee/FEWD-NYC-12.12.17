@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-sm-6">
+          <h1 class="text-center mb-5">Get the Weather</h1>
+
+          <div id="weather-report" class="card mx-auto mb-3" style="display: none;">
+            <div class="card-body">
+              <h4 class="card-title"><span id="weather-temp"></span>&#8457;</h4>
+              <h6 id="weather-title" class="card-subtitle mb-2 text-muted"></h6>
+              <p id ="weather-description"class="card-text"></p>
+            </div>
+          </div>
+
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control form-control-lg" id="zip" placeholder="enter zip code">
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <!-- Bootstrap recommends the 'slim' version of jQuery, however we're using the full version
+  because AJAX is not available in the slim version -->
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</html>
